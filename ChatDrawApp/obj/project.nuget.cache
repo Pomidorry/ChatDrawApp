@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "FsdtYMpoCMuj9lqZo6ljFekg8Gmxa3qTTGprLKN+DrlzN3gOgqLI55AA/JxHqMItAYO07bJwS2nHm7KFLNGqlw==",
+  "success": true,
+  "projectFilePath": "D:\\ChatDrawApp\\ChatDrawApp\\ChatDrawApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\docker.dotnet\\3.125.15\\docker.dotnet.3.125.15.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.10\\microsoft.aspnetcore.connections.abstractions.7.0.10.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.10\\microsoft.aspnetcore.signalr.common.7.0.10.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.extensions.features\\7.0.10\\microsoft.extensions.features.7.0.10.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

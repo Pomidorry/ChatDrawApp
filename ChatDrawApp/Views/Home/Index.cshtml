@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Form</title>
+    <style>
+        .container {
+            position: absolute;
+            right: 0;
+            width: 300px; /* Adjust the width as needed */
+            margin-right: 10px; /* Add some margin from the right side */
+            border: 1px solid #ccc; /* Optional: Add a border for clarity */
+            padding: 10px; /* Optional: Add some padding inside the container */
+            background-color: #f9f9f9; /* Optional: Add background color */
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        .messages-container {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        #messagesList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #messagesList li {
+            margin-bottom: 5px;
+            background-color: #fff;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #whiteboard {
+            border: 2px solid #131;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row p-1">
+            <div class="col-3">User</div>
+            <div class="col-9"><input type="text" id="userInput" /></div>
+        </div>
+        <div class="row p-1">
+            <div class="col-3">Message</div>
+            <div class="col-9"><input type="text" class="w-100" id="messageInput" /></div>
+        </div>
+        <div class="row p-1">
+            <div class="col-12 text-end">
+                <input type="button" id="sendButton" value="Send Message" />
+            </div>
+        </div>
+        <div class="row p-1">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row p-1 messages-container">
+            <div class="col-12">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+    </div>
+    <canvas id="whiteboard" width="800" height="600"></canvas>
+    <input type="color" id="colorPicker">
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+</body>
+</html>
+
+
+@*@page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Whiteboard</title>
+    <style>
+        #whiteboard {
+            border: 1px solid #131;
+        }
+    </style>
+</head>
+
+<canvas id="whiteboard" width="800" height="600"></canvas>
+<input type="color" id="colorPicker">
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>*@
